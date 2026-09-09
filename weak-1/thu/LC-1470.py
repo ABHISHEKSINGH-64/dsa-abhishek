@@ -7,7 +7,7 @@
 # Time: O(n)
 # Space: O(n)
 #
-# Status: solved in __ min / needed a hint / read the editorial
+# Status: solved in 20 min / needed a hint / read the editorial
 
 
 
