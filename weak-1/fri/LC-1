@@ -1,0 +1,17 @@
+#  LC 1. Two sum
+#  https://leetcode.com/problems/two-sum/description/
+# Approach: We use a hashmap. For each number, we check what number is needed to reach the target. If it is already in the map, we
+# return the two indexes. Otherwise, we store the number and its index.
+#  Time: O(n)
+#  Space: O(n)
+# Status: solved in 18 mins
+
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hmap = {}
+        for i in range(len(nums)):
+            if target - nums[i] in hmap:
+                return [hmap[target - nums[i]], i]
+            else: 
+                hmap[nums[i]] = i 
