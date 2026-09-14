@@ -8,6 +8,7 @@
 
 ---
 
+
 ## 1. Problem log
 
 Add a row for every problem. **Status is the important column — be honest.**
@@ -15,10 +16,16 @@ Add a row for every problem. **Status is the important column — be honest.**
 **Status codes:** `S` solved unaided · `H` needed a hint · `E` read the editorial · `R` re-solved on revision
 
 | Wk | Day | Problem | Difficulty | Time | Status | Pattern | Note |
-| -- | --- | ------- | ---------- | ---- | ------ | ------- | ---- |
-|    |     |         |            |      |        |         |      |
-|    |     |         |            |      |        |         |      |
-|    |     |         |            |      |        |         |      |
+|---|---|---|---|---|---|---|---|
+| 1 | Thursday | Running Sum of 1D Array | Easy | 15 min | S | Prefix Sum | Solved using prefix sum |
+| 1 | Thursday | Remove Duplicates from Sorted Array | Easy | 6 min | S | Two Pointers | Update array when current element differs |
+| 1 | Thursday | Shuffle the Array | Easy | 20 min | S | Array / Indexing | Split array into two halves and interleave |
+| 1 | Thursday | Richest Customer Wealth | Easy | 12 min | H | Array / Traversal | Used AI to understand space complexity |
+| 1 | Friday | Two Sum | Easy | 18 min | S | Hash Map / Complement | Store value and index, check complement |
+| 1 | Friday | Contains Duplicate | Easy | 14 min | S | Hash Set | Store numbers in a set and check duplicates |
+| 1 | Weekend | Merge Sorted Array | Easy | 20 min | H | Two Pointers | Used AI help; three pointers from the end |
+| 1 | Weekend | Product of Array Except Self | Medium | 15 min | S | Prefix / Suffix Product | Calculate prefix and suffix products |
+| 1 | Weekend | Move Zeroes | Easy | 5 min | S | Two Pointers | Use read/write pointers to move non-zero elements |
 
 **Fill in the pattern column every time.** By week 16 this table is your personal revision sheet, sorted by pattern — and it is far more useful than any list you could download.
 
